@@ -1000,7 +1000,7 @@ footer .outer__footer .footer__left>a:hover {
     display: -ms-inline-flexbox;
     display: inline-flex;
     min-width: 168px;
-    min-height: 42px;
+    min-height: 50px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -1016,7 +1016,7 @@ footer .outer__footer .footer__left>a:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
-  
+
   .banner__wrapper {
     position: relative;
     background: none !important;
