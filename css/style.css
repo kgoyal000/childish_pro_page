@@ -697,8 +697,8 @@ footer .outer__footer .footer__left>a:hover {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  min-width: 168px;
-  min-height: 42px;
+  min-width: 275px;
+  min-height: 80px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -708,12 +708,14 @@ footer .outer__footer .footer__left>a:hover {
   border-radius: 250px;
   font-weight: 900;
   color: #fff;
-  font-size: 24px;
+  font-size: 40px;
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 20px;
   padding-right: 20px;
 }
+
+
 
 .banner__wrapper .outer__banner .banner__box .banner__inner .bottom__info>.images {
   display: -webkit-box;
@@ -993,6 +995,28 @@ footer .outer__footer .footer__left>a:hover {
 }
 
 @media (max-width: 1200px) {
+  .banner__wrapper .outer__banner .banner__box .banner__inner .bottom__info>a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    min-width: 168px;
+    min-height: 42px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 250px;
+    font-weight: 900;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
   .banner__wrapper {
     position: relative;
     background: none !important;
